@@ -6,3 +6,5 @@
 ---
 
 2026-08-27 — [Claude] — создана структура репозитория (README, AGENTS, brand-guidelines, tasks, drafts) — далее: наполнить tasks/ реальными задачами и заполнить brand-guidelines.md под бренд Ангелы.
+
+2026-09-22 — [Codex] — добавлен `storytelling-warmup.md`, обязательная маршрутизация прогревов в `AGENTS.md` и чек-лист в `brand-guidelines.md`; задача `tasks/done/2026-09-22-storytelling-warmups.md` — далее: применять после заполнения бренд-брифа; внешних публикаций нет.
