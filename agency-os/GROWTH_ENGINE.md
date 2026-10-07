@@ -1,304 +1,260 @@
 # Premium Instagram Agency OS — Growth Engine
 
 ## North-star outcome
-The agency exists to create sustained account growth: more qualified reach, more video views, more shares/reposts, more saves, more comments, more profile actions, and more followers from relevant audiences.
+The agency exists to create sustained qualified growth and commercial impact: more relevant reach, views, shares/reposts, saves, comments, profile actions, followers, qualified conversations, leads and, when connected, revenue.
 
-We optimize for a portfolio of metrics because any single Instagram metric can be gamed or can move for the wrong reason.
+Publishing content is an input. Measured audience/business movement is the result.
 
 ## Core operating loop
 
 1. INSTRUMENT
-   - connect owned Instagram Business/Creator account;
-   - backfill available historical data;
-   - create daily account snapshots and per-media insight snapshots;
-   - tag content by format, topic, hook, angle, CTA, face/no-face, length, production style and offer.
+- connect owned Instagram Business/Creator account;
+- backfill available historical data;
+- create account/media snapshots;
+- tag content by format, topic, hook, angle, CTA, length, production style and offer;
+- connect funnel/revenue events when the client can provide them.
 
-2. BASELINE
-   - compare like with like: Reels vs Reels, carousel vs carousel;
-   - calculate rolling medians and percentiles for the client's own account;
-   - normalize by follower base, account growth and content age where useful;
-   - identify stable strengths and weaknesses before recommending strategy.
+2. CUSTOMER + MARKET TRUTH
+- ingest Voice-of-Customer evidence from approved sources;
+- map direct competitors, aspirational references and adjacent-category winners;
+- identify audience language, objections, desires, triggers, alternatives and category whitespace;
+- monitor cultural/trend signals;
+- distinguish evidence from strategist inference.
 
-3. MARKET MAP
-   - map direct competitors, aspirational references and adjacent-category winners;
-   - inspect public professional-account data through compliant sources such as Meta Business Discovery where available;
-   - research current category narratives, audience language, offers, formats and recurring creative patterns;
-   - never infer private competitor metrics we cannot observe.
+3. BASELINE
+- compare like with like;
+- use rolling medians/percentiles;
+- normalize by content age/follower base where useful;
+- establish profile conversion and funnel baselines when available.
 
 4. OUTLIER DETECTION
-   - flag posts that materially outperform the client's recent baseline;
-   - separate early velocity from mature performance;
-   - identify which variables co-occurred with success: hook, topic, format, length, visual pattern, emotional mechanism, CTA, timing.
+- flag posts materially above/below matched recent baselines;
+- separate early velocity from mature performance;
+- identify co-occurring variables without claiming causality from one post.
 
-5. HYPOTHESIS
-   Every content item should test a written hypothesis, e.g.:
-   "For cold women 35-50, a high-status contrarian hook about X will increase shares per 1,000 reached compared with the account's 30-day Reel median."
+5. POSITIONING + OFFER FIT
+Before content planning, confirm:
+- target audience;
+- desired perception/status;
+- current offer ladder;
+- proof and objections;
+- campaign CTA;
+- profile path after content exposure;
+- commercial objective where relevant.
 
-6. PRODUCER LOCK
-   Executive Growth Producer records before production:
-   - primary objective;
-   - hypothesis;
-   - primary metric;
-   - matched baseline;
-   - owner;
-   - deadline;
-   - production budget/complexity;
-   - dependencies;
-   - decision rule after measurement.
+6. HYPOTHESIS
+Every priority content item tests a written hypothesis with:
+- audience;
+- mechanism;
+- expected behavior;
+- primary metric;
+- matched baseline;
+- success/failure rule.
 
-   No content enters production without this lock.
+7. PRODUCER LOCK
+Executive Growth Producer records objective, hypothesis, metric, owner, deadline, dependencies, budget/complexity and post-measurement decision rule.
 
-7. CREATIVE BRIEF
-   Generate:
-   - target segment;
-   - desired behavioral response;
-   - hook options;
-   - tension / curiosity mechanism;
-   - evidence or payoff;
-   - script;
-   - shot list;
-   - edit pattern;
-   - caption/CTA;
-   - predicted primary metric;
-   - risk notes (brand, claims, platform, legal).
+No priority asset enters production without this lock.
 
-8. GROWTH CRITIC — CONCEPT GATE
-   Independent Critic scores the concept before expensive production.
+8. VIRALITY + CREATIVE CONCEPT
+Head of Virality designs opening/distribution hypotheses.
+Creative Director converts the strategy into a distinctive platform-native concept.
 
-   Default dimensions include:
-   - objective fit;
-   - audience fit;
-   - hook strength;
-   - specificity;
-   - originality/saturation risk;
-   - shareability;
-   - saveability where relevant;
-   - commentability where relevant;
-   - premium brand fit;
-   - strategic fit against recent approved content;
-   - evidence integrity;
-   - execution readiness.
+9. GROWTH CRITIC — CONCEPT GATE
+Independent strategic/growth review. PASS / REVISE / REJECT.
 
-   Default gate:
-   - average >= 4.0 / 5;
-   - no critical dimension below 3;
-   - no hard-fail condition.
+10. SCRIPT + HUMAN VOICE
+- Reels Strategist builds information order, tension and payoff;
+- Human Writer rewrites through real client voice evidence;
+- Text Critic independently checks language, specificity, rhythm, spoken naturalness and AI/copywriting clichés.
 
-   Result: PASS / REVISE / REJECT.
+11. COMPLIANCE / REPUTATION GATE WHEN REQUIRED
+Sensitive/high-risk claims, partnerships, testimonials, guarantees, allegations or regulated-category content are reviewed before production/publication.
 
-9. APPROVAL + PRODUCTION
-   - no public publishing by default without approval;
-   - maintain version history;
-   - store source assets and approved production pack;
-   - preserve client brand voice and factual claims;
-   - Executive Growth Producer monitors blockers and cycle time.
+12. PRODUCTION
+- shot list / carousel build / edit map;
+- preserve approved first frame and hook mechanics;
+- maintain version history;
+- Executive Growth Producer removes blockers.
 
-10. GROWTH CRITIC — PRE-PUBLISH GATE
-   The completed script/edit/caption is reviewed again.
-   The Critic must verify that execution did not weaken the approved concept.
+13. GROWTH CRITIC — PRE-PUBLISH GATE
+Verify that production still delivers the original strategic promise and objective.
 
-   Typical checks:
-   - first 1-2 seconds still deliver the intended hook;
-   - payoff matches promise;
-   - edit pacing supports the goal;
-   - no accidental genericization during production;
-   - CTA still matches objective;
-   - factual/brand/legal risk remains acceptable;
-   - platform-native fit is preserved.
+14. CLIENT/HUMAN APPROVAL
+Required where configured before public publishing.
 
-11. PUBLISH
-   - publish through approved Meta API or publishing adapter;
-   - record exact publish time, content version, critic verdict and campaign/hypothesis IDs.
+15. PUBLISH
+Publish through approved Meta API/publishing adapter and record version, time, campaign, hypothesis and approval metadata.
 
-12. MEASURE
-   Snapshot metrics at meaningful content ages (subject to API availability), e.g. 1h / 6h / 24h / 72h / 7d.
+16. DISTRIBUTE
+Distribution & Partnerships Director evaluates:
+- Collab/creator/brand/media opportunities;
+- earned distribution;
+- partner seeding;
+- community relevance;
+- timing around cultural/news moments.
 
-13. LEARN
-   - compare to account baseline and matched cohort;
-   - update pattern confidence;
-   - promote winning mechanisms into reusable playbooks;
-   - retire repeatedly weak patterns;
-   - generate the next-best-content recommendation.
+17. PAID AMPLIFICATION WHEN JUSTIFIED
+Paid Amplification Strategist may TEST/SCALE only when objective, economics and audience quality justify spend. Spend must not redefine a weak organic asset as a creative winner.
 
-14. PRODUCER CLOSE
-   Executive Growth Producer must choose one outcome:
-   - SCALE — repeat/expand validated winning mechanism;
-   - ITERATE — keep hypothesis, change execution variable;
-   - RETEST — evidence too weak/incomplete;
-   - RETIRE — mechanism repeatedly underperforms;
-   - REPLACE — strategic hypothesis itself is weak.
+18. MEASURE
+Capture content-age snapshots and downstream events where available:
+- reach/views;
+- shares/saves/comments;
+- profile visits/actions;
+- follows;
+- DMs/leads;
+- bookings;
+- sales/revenue;
+- distribution source.
 
-   A content task is not considered complete until this decision is recorded.
+19. ATTRIBUTION
+Revenue Attribution & Funnel Analyst classifies downstream impact as:
+- DIRECT;
+- ASSISTED;
+- UNKNOWN;
+- or another known source category.
 
-15. CRITIC POSTMORTEM CHALLENGE WHEN NEEDED
-   If the team makes a strong causal claim about why content won or lost, the Growth Critic checks:
-   - whether the data supports that explanation;
-   - alternative explanations;
-   - whether the sample is large/mature enough;
-   - whether the supposed winning variable is confounded with other changes.
+Never fabricate precision where multi-touch attribution is uncertain.
+
+20. LEARN
+Account Analyst + Experiment Analyst compare result to matched baselines, update pattern confidence, promote winning mechanisms and retire repeated losers.
+
+21. PRODUCER CLOSE
+Executive Growth Producer records one decision:
+- SCALE;
+- ITERATE;
+- RETEST;
+- RETIRE;
+- REPLACE.
+
+A task is not complete until this decision exists.
 
 ## Metric hierarchy
 
 ### Reach / discovery
 - reach
-- views / plays where available
+- views/plays
 - non-follower reach where available
-- profile visits/actions where available
-- follower growth attributable only when data supports attribution; otherwise report correlation.
+- profile visits/actions
 
 ### Distribution / virality
-- shares / reposts
+- shares/reposts
 - shares per 1,000 reached
 - saves per 1,000 reached
 - comments per 1,000 reached
-- total interactions per 1,000 reached
+- interactions per 1,000 reached
 
-### Content depth
-- video watch metrics / retention where available
-- saves
-- substantive comments
-- profile actions
+### Voice / creative quality
+- early retention/watch metrics where available
+- Text Critic pass/fail
+- client edit effort
+- hook-family performance
 
-### Business layer
-When the client can connect it:
+### Profile conversion
+- profile visits per 1,000 reached
+- follows per 1,000 profile visits
+- link clicks / DMs per profile visit where available
+
+### Funnel / business
 - qualified DMs/leads
-- booked calls
-- purchases/revenue
-- lead-to-sale conversion by content cluster
+- bookings
+- lead-to-sale conversion
+- revenue
+- revenue per 1,000 reached
+- revenue per new follower where meaningful
+- attribution confidence
 
-## Growth score
-Do not reduce the entire account to one opaque score for reporting. Internally, a configurable composite can rank creative candidates, but every component remains visible.
-
-Default decision priorities depend on campaign intent:
-- Discovery Reel: reach/views + shares
-- Authority Reel: saves + profile actions + qualified comments
-- Conversion content: leads/DMs/bookings/revenue
-- Community content: comments + replies + repeat-engager rate where measurable
-
-## Producer scorecard
-The Executive Growth Producer is evaluated on outcomes and operating speed, not content volume alone:
-- approved experiments shipped per week;
-- idea-to-publish cycle time;
-- experiment completion rate;
-- % of posts beating matched baseline on their primary metric;
-- number of winning mechanisms scaled;
-- number of repeatedly weak mechanisms retired;
-- weekly movement in reach/share/save/comment/follower metrics;
-- unresolved blockers;
-- learning velocity: useful decisions per publishing cycle.
-
-The Producer may not redefine success after seeing results.
-
-## Critic scorecard
-The Critic is evaluated on discrimination and usefulness, not harshness:
-- ability to separate known strong vs weak examples;
-- rate of human agreement with PASS/REVISE/REJECT;
-- reduction in obvious pre-publish failures;
-- specificity/actionability of revision instructions;
-- false-reject rate on later strong performers;
-- false-pass rate on obvious low-quality or off-strategy assets;
-- calibration drift over time.
-
-Maintain a calibration set of winners, underperformers, generic examples, off-brand examples and high-reach/wrong-audience examples.
-
-## Outlier score
-For each post, compare metric rates against a matched recent cohort of the same format.
-
-Recommended robust baseline:
-- rolling median rather than mean;
-- median absolute deviation / percentile ranking for outlier detection;
-- minimum sample-size/content-age guardrails;
-- never call a winner solely from one metric or one very early snapshot.
-
-## Creative feature taxonomy
-Each piece of content is tagged so the system can learn patterns:
-
-- format: reel / carousel / static / story
-- duration bucket
-- hook family: contrarian / curiosity / pain / status / proof / story / tutorial / identity / news-jack / transformation
-- first-frame type
-- speaking style: direct-to-camera / voiceover / dialogue / text-led / faceless
-- emotional driver
-- topic / pillar
-- awareness level
-- audience segment
-- CTA type
-- offer / no-offer
-- production level
-- location / visual setting
-- caption type
-- audio/trend identifier when relevant
+## Campaign intent
+Default priorities depend on objective:
+- Discovery: reach/views + shares;
+- Authority: saves + profile actions + qualified comments;
+- Conversion: DMs/leads/bookings/revenue;
+- Community: comments/replies/repeat engagement;
+- Partnership: qualified partner reach + profile/follow/lead lift;
+- Monetization: funnel/revenue metrics with attribution state.
 
 ## Premium-client rules
-Premium does not mean visually expensive only. It means:
+Premium means:
 - sharp positioning;
+- strong customer evidence;
 - high signal-to-noise;
 - no desperate engagement bait;
-- evidence over generic expertise;
-- deliberate status cues;
-- differentiated point of view;
-- fewer but stronger commercial CTAs;
-- content that filters for the right buyer, not just the largest audience.
+- fewer but stronger CTAs;
+- distribution partners chosen by audience quality, not follower count;
+- truthful claims and controlled reputation risk;
+- content that filters for the right buyer, not merely the biggest audience.
 
 ## Weekly operating cadence
 
-MON — Intelligence + Producer lock
-- ingest latest metrics;
+MON — Intelligence + customer truth
+- account metrics;
+- VOC synthesis;
 - market/competitor scan;
-- identify winners/losers;
-- produce 3-7 hypotheses;
-- Executive Growth Producer selects the week's slate, objectives, owners and deadlines.
+- trend radar;
+- offer/profile/funnel anomalies;
+- select 3–7 hypotheses.
 
-TUE — Concept + Critic gate
-- concepts and hook families;
-- Growth Critic reviews before expensive production;
-- weak ideas are revised/rejected early.
+TUE — Strategy + gates
+- producer lock;
+- hooks/concepts;
+- Growth Critic concept gate;
+- sensitive claims flagged for compliance.
 
-TUE-WED — Creative + Production
-- scripts, carousels, production packs;
-- client approval;
+TUE-WED — Writing + production
+- scripts;
+- Human Writer;
+- Text Critic;
 - production/editing;
-- Producer removes blockers and protects priority order.
+- client approval queue.
 
-PRE-PUBLISH — Critic gate
-- final content checked against original objective/hypothesis;
-- only PASS moves to publication approval.
+PRE-PUBLISH
+- compliance gate if needed;
+- Growth Critic pre-publish gate;
+- final approval.
 
-THU-SUN — Publish and measure
-- stagger experiments where possible;
-- monitor early signals without overreacting;
-- community response and comment mining;
-- capture audience language for future hooks.
+THU-SUN — Publish + distribute + measure
+- stagger tests where possible;
+- partnership distribution;
+- selective paid amplification where approved;
+- community response mining;
+- profile/funnel monitoring.
 
-WEEKLY REVIEW — Producer close
+WEEKLY REVIEW
 - what materially changed;
-- which hypotheses gained/lost confidence;
-- winning content mechanisms;
-- what is scaled / iterated / retired / replaced;
-- next week's bets;
-- business impact if connected.
+- hypotheses gained/lost confidence;
+- creative and hook winners;
+- profile/offer/funnel leakage;
+- distribution/partner contribution;
+- revenue/direct/assisted impact where connected;
+- SCALE / ITERATE / RETEST / RETIRE / REPLACE decisions.
 
 ## Client onboarding audit
 No strategy before this audit:
 1. business objective and offer economics;
 2. audience/market/geography;
-3. account history;
-4. last 30-90 posts tagged and benchmarked;
-5. best and worst posts;
-6. audience comments/DM themes where permission exists;
-7. competitor/reference map;
-8. current funnel/profile/bio/highlights;
+3. Voice-of-Customer evidence or research plan;
+4. account history and last 30–90 posts;
+5. best/worst posts;
+6. competitor/reference map;
+7. profile/bio/pinned posts/Highlights/link path;
+8. funnel/DM/booking/sales path;
 9. production constraints;
-10. brand/legal red lines.
+10. brand/legal/reputation red lines;
+11. partner/distribution opportunities;
+12. analytics/attribution connections available.
 
 ## Safety and platform integrity
-Forbidden as a growth tactic:
+Forbidden as growth tactics:
 - purchased followers/likes/comments;
 - engagement pods presented as organic success;
 - follow/unfollow automation;
-- credential stuffing or session hijacking;
+- credential stuffing/session hijacking;
 - mass unsolicited DMs;
 - evasion of Meta limits;
-- publishing false claims or fabricated proof.
+- fabricated proof/testimonials/results;
+- fake scarcity;
+- misleading attribution;
+- publishing material sensitive claims without required review.
 
-The system should prefer durable audience growth over temporary inflated metrics.
+The system optimizes durable qualified growth, not inflated metrics.
