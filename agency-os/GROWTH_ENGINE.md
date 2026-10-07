@@ -34,7 +34,21 @@ We optimize for a portfolio of metrics because any single Instagram metric can b
    Every content item should test a written hypothesis, e.g.:
    "For cold women 35-50, a high-status contrarian hook about X will increase shares per 1,000 reached compared with the account's 30-day Reel median."
 
-6. CREATIVE BRIEF
+6. PRODUCER LOCK
+   Executive Growth Producer records before production:
+   - primary objective;
+   - hypothesis;
+   - primary metric;
+   - matched baseline;
+   - owner;
+   - deadline;
+   - production budget/complexity;
+   - dependencies;
+   - decision rule after measurement.
+
+   No content enters production without this lock.
+
+7. CREATIVE BRIEF
    Generate:
    - target segment;
    - desired behavioral response;
@@ -48,25 +62,80 @@ We optimize for a portfolio of metrics because any single Instagram metric can b
    - predicted primary metric;
    - risk notes (brand, claims, platform, legal).
 
-7. APPROVAL + PRODUCTION
+8. GROWTH CRITIC — CONCEPT GATE
+   Independent Critic scores the concept before expensive production.
+
+   Default dimensions include:
+   - objective fit;
+   - audience fit;
+   - hook strength;
+   - specificity;
+   - originality/saturation risk;
+   - shareability;
+   - saveability where relevant;
+   - commentability where relevant;
+   - premium brand fit;
+   - strategic fit against recent approved content;
+   - evidence integrity;
+   - execution readiness.
+
+   Default gate:
+   - average >= 4.0 / 5;
+   - no critical dimension below 3;
+   - no hard-fail condition.
+
+   Result: PASS / REVISE / REJECT.
+
+9. APPROVAL + PRODUCTION
    - no public publishing by default without approval;
    - maintain version history;
    - store source assets and approved production pack;
-   - preserve client brand voice and factual claims.
+   - preserve client brand voice and factual claims;
+   - Executive Growth Producer monitors blockers and cycle time.
 
-8. PUBLISH
+10. GROWTH CRITIC — PRE-PUBLISH GATE
+   The completed script/edit/caption is reviewed again.
+   The Critic must verify that execution did not weaken the approved concept.
+
+   Typical checks:
+   - first 1-2 seconds still deliver the intended hook;
+   - payoff matches promise;
+   - edit pacing supports the goal;
+   - no accidental genericization during production;
+   - CTA still matches objective;
+   - factual/brand/legal risk remains acceptable;
+   - platform-native fit is preserved.
+
+11. PUBLISH
    - publish through approved Meta API or publishing adapter;
-   - record exact publish time, content version and campaign/hypothesis IDs.
+   - record exact publish time, content version, critic verdict and campaign/hypothesis IDs.
 
-9. MEASURE
+12. MEASURE
    Snapshot metrics at meaningful content ages (subject to API availability), e.g. 1h / 6h / 24h / 72h / 7d.
 
-10. LEARN
+13. LEARN
    - compare to account baseline and matched cohort;
    - update pattern confidence;
    - promote winning mechanisms into reusable playbooks;
    - retire repeatedly weak patterns;
    - generate the next-best-content recommendation.
+
+14. PRODUCER CLOSE
+   Executive Growth Producer must choose one outcome:
+   - SCALE — repeat/expand validated winning mechanism;
+   - ITERATE — keep hypothesis, change execution variable;
+   - RETEST — evidence too weak/incomplete;
+   - RETIRE — mechanism repeatedly underperforms;
+   - REPLACE — strategic hypothesis itself is weak.
+
+   A content task is not considered complete until this decision is recorded.
+
+15. CRITIC POSTMORTEM CHALLENGE WHEN NEEDED
+   If the team makes a strong causal claim about why content won or lost, the Growth Critic checks:
+   - whether the data supports that explanation;
+   - alternative explanations;
+   - whether the sample is large/mature enough;
+   - whether the supposed winning variable is confounded with other changes.
 
 ## Metric hierarchy
 
@@ -105,6 +174,32 @@ Default decision priorities depend on campaign intent:
 - Authority Reel: saves + profile actions + qualified comments
 - Conversion content: leads/DMs/bookings/revenue
 - Community content: comments + replies + repeat-engager rate where measurable
+
+## Producer scorecard
+The Executive Growth Producer is evaluated on outcomes and operating speed, not content volume alone:
+- approved experiments shipped per week;
+- idea-to-publish cycle time;
+- experiment completion rate;
+- % of posts beating matched baseline on their primary metric;
+- number of winning mechanisms scaled;
+- number of repeatedly weak mechanisms retired;
+- weekly movement in reach/share/save/comment/follower metrics;
+- unresolved blockers;
+- learning velocity: useful decisions per publishing cycle.
+
+The Producer may not redefine success after seeing results.
+
+## Critic scorecard
+The Critic is evaluated on discrimination and usefulness, not harshness:
+- ability to separate known strong vs weak examples;
+- rate of human agreement with PASS/REVISE/REJECT;
+- reduction in obvious pre-publish failures;
+- specificity/actionability of revision instructions;
+- false-reject rate on later strong performers;
+- false-pass rate on obvious low-quality or off-strategy assets;
+- calibration drift over time.
+
+Maintain a calibration set of winners, underperformers, generic examples, off-brand examples and high-reach/wrong-audience examples.
 
 ## Outlier score
 For each post, compare metric rates against a matched recent cohort of the same format.
@@ -147,16 +242,27 @@ Premium does not mean visually expensive only. It means:
 
 ## Weekly operating cadence
 
-MON — Intelligence
+MON — Intelligence + Producer lock
 - ingest latest metrics;
 - market/competitor scan;
 - identify winners/losers;
-- produce 3-7 hypotheses.
+- produce 3-7 hypotheses;
+- Executive Growth Producer selects the week's slate, objectives, owners and deadlines.
 
-TUE-WED — Creative
+TUE — Concept + Critic gate
+- concepts and hook families;
+- Growth Critic reviews before expensive production;
+- weak ideas are revised/rejected early.
+
+TUE-WED — Creative + Production
 - scripts, carousels, production packs;
 - client approval;
-- production/editing.
+- production/editing;
+- Producer removes blockers and protects priority order.
+
+PRE-PUBLISH — Critic gate
+- final content checked against original objective/hypothesis;
+- only PASS moves to publication approval.
 
 THU-SUN — Publish and measure
 - stagger experiments where possible;
@@ -164,10 +270,11 @@ THU-SUN — Publish and measure
 - community response and comment mining;
 - capture audience language for future hooks.
 
-WEEKLY REVIEW
+WEEKLY REVIEW — Producer close
 - what materially changed;
 - which hypotheses gained/lost confidence;
 - winning content mechanisms;
+- what is scaled / iterated / retired / replaced;
 - next week's bets;
 - business impact if connected.
 
