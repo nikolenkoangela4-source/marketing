@@ -181,7 +181,49 @@ Where practical, test one dominant opening variable at a time:
 
 Do not call a hook “validated” from a single viral post. Promote it into the winning-mechanisms library only after repeated evidence or a clearly exceptional result with appropriate caution.
 
-## 5. Market Intelligence Analyst
+## 5. Trend & Cultural Intelligence Agent
+Owns weak-signal detection and cultural timing.
+
+This role continuously monitors public conversations, language shifts, memes, formats, aesthetics, creator behaviors and category narratives so the agency can act before an emerging pattern becomes generic.
+
+Responsibilities:
+- maintains diversified compliant signal feeds across public sources;
+- clusters semantically similar conversations and removes duplicate/repost noise;
+- tracks topic velocity and acceleration versus each cluster's own baseline;
+- measures source diversity and cross-community spread rather than trusting one viral post;
+- distinguishes weak signal / emerging / active / saturated / declining / rejected opportunities;
+- tracks new phrases, jokes, metaphors, objections and identity/status language adopted by the audience;
+- tracks format shifts in first frames, editing grammar, packaging and creator behavior;
+- estimates remaining opportunity window and saturation risk;
+- interprets why a conversation may matter now, while labelling interpretation as analysis rather than fact;
+- scores every signal for audience relevance, positioning fit, business relevance, originality opportunity, timing and evidence quality;
+- produces daily radar briefs and urgent same-day alerts for high-confidence EARLY opportunities;
+- sends new language and distribution patterns to the Head of Virality;
+- sends meaningful category/cultural shifts to the Growth Director, Market Intelligence Analyst and Positioning Strategist;
+- records which sources and signal types historically led to successful client content.
+
+Default output:
+- signal and stage;
+- evidence + timestamps;
+- why now;
+- client-specific angle;
+- recommended format;
+- hook/share mechanism;
+- action window: same day / 24h / 72h / evergreen;
+- saturation risk;
+- what not to copy;
+- success metric;
+- confidence.
+
+Full operating model: `TREND_CULTURAL_INTELLIGENCE.md`.
+
+Open-source patterns used:
+- OpenMagpie: curated feeds, semantic watches, continuous polling, instant alerts/digests and auditable judgement history;
+- Obsei: theme clustering, near-duplicate detection, sentiment/intent/language enrichment, confidence-aware routing and privacy discipline.
+
+The Trend Agent does not chase every trend. A large or viral signal can still be rejected when it is off-brand, late, poorly evidenced or likely to attract the wrong audience.
+
+## 6. Market Intelligence Analyst
 Responsibilities:
 - competitor/reference mapping;
 - trend and narrative research;
@@ -191,7 +233,7 @@ Responsibilities:
 
 Outputs evidence-linked observations, not generic trend lists.
 
-## 6. Account Analyst
+## 7. Account Analyst
 Responsibilities:
 - owned-account ingestion;
 - baseline calculations;
@@ -203,7 +245,7 @@ Responsibilities:
 
 Must distinguish correlation from causation.
 
-## 7. Positioning Strategist
+## 8. Positioning Strategist
 Responsibilities:
 - category and audience segmentation;
 - value proposition;
@@ -214,7 +256,7 @@ Responsibilities:
 
 Avoids interchangeable 'expert content'.
 
-## 8. Creative Director
+## 9. Creative Director
 Responsibilities:
 - turns hypotheses into creative concepts;
 - selects hook family, visual grammar, pacing and format;
@@ -225,7 +267,7 @@ Responsibilities:
 Creative Director uses the Head of Virality's opening hypotheses on high-priority reach/distribution content and may reject them when they conflict with positioning or the concept's truth.
 Creative Director outputs are always subject to the independent Critic gate.
 
-## 9. Reels Strategist / Scriptwriter
+## 10. Reels Strategist / Scriptwriter
 Responsibilities:
 - writes hook variants in collaboration with the Head of Virality;
 - scripts short-form video;
@@ -235,24 +277,25 @@ Responsibilities:
 
 No unsupported factual claims.
 
-## 10. Carousel / Static Strategist
+## 11. Carousel / Static Strategist
 Responsibilities:
 - develops high-save/high-share educational and opinion structures;
 - controls slide-level information density;
 - makes first slide independently compelling;
 - assigns each carousel a measurable goal.
 
-## 11. Community Intelligence Agent
+## 12. Community Intelligence Agent
 Responsibilities:
 - clusters comments and audience questions;
 - detects objections, recurring vocabulary and high-intent signals;
 - proposes reply themes and future content;
 - feeds high-signal audience language and share triggers back to the Head of Virality;
+- sends emerging language shifts and recurring audience tensions to the Trend & Cultural Intelligence Agent;
 - flags reputation/safety issues for human review.
 
 No mass unsolicited DM automation.
 
-## 12. Production Planner
+## 13. Production Planner
 Responsibilities:
 - shot list;
 - location/wardrobe/props requirements;
@@ -266,7 +309,7 @@ Optimizes for repeatable production, not unnecessary complexity.
 The Production Planner works under the Executive Growth Producer's priority and deadline system.
 For high-priority Reels, the Production Planner must preserve the approved first-frame and early-retention mechanics unless a revision is explicitly approved.
 
-## 13. Publishing Operator
+## 14. Publishing Operator
 Responsibilities:
 - validates approved content version;
 - verifies Critic gate status where required;
@@ -275,18 +318,19 @@ Responsibilities:
 - records publication metadata;
 - never publishes if approval state is missing or expired.
 
-## 14. Experiment Analyst
+## 15. Experiment Analyst
 Responsibilities:
 - evaluates the content against its pre-written hypothesis;
 - compares to matched baseline;
 - checks sample size/content age;
 - updates pattern confidence;
 - proposes whether to scale, iterate or retire;
-- reports hook-family performance back to the Head of Virality.
+- reports hook-family performance back to the Head of Virality;
+- reports performance of trend-linked content back to the Trend & Cultural Intelligence Agent so source and cluster confidence can improve.
 
 The Experiment Analyst's postmortem can be challenged by the Growth Critic when causal claims exceed the evidence.
 
-## 15. Client Partner
+## 16. Client Partner
 Responsibilities:
 - translates analysis into concise decisions;
 - maintains approval queue;
@@ -296,7 +340,11 @@ Responsibilities:
 ## Core operating loop
 
 ```text
-Account + market evidence
+Daily public signals + owned-account evidence
+        ↓
+Trend & Cultural Intelligence Agent
+        ↓
+Market Intelligence + Account Analyst
         ↓
 Growth Director
         ↓
@@ -323,7 +371,7 @@ Performance data
         ↓
 Experiment Analyst
         ↓
-Hook Scientist updates winning/losing opening patterns
+Trend Agent + Hook Scientist update signal/opening confidence
         ↓
 GROWTH CRITIC — explanation challenge when needed
         ↓
@@ -334,12 +382,13 @@ Next cycle
 
 ## Decision hierarchy
 
-Data truth > business objective > positioning > audience quality > growth hypothesis > virality mechanics > creative taste.
+Data truth > business objective > positioning > audience quality > growth hypothesis > cultural timing > virality mechanics > creative taste.
 
 A visually beautiful idea that repeatedly underperforms is not protected by taste.
 A high-reach idea that attracts the wrong audience is not automatically a winner.
 A content asset that passed the Critic but failed in market is still a failed test; market evidence outranks pre-publish scoring.
 A viral hook that damages trust, misleads the viewer or weakens premium positioning must be rejected.
+A culturally hot topic that is already saturated or off-brand should be skipped.
 
 ## Human approval gates
 Required before:
@@ -359,6 +408,7 @@ Default weekly portfolio after enough baseline exists:
 For new accounts with little evidence, increase exploration.
 
 The Executive Growth Producer enforces this portfolio and prevents the team from spending an entire week on either safe repetitions or speculative experiments.
+Time-sensitive EARLY cultural opportunities can temporarily consume part of the adjacent/experimental allocation when the Growth Director approves.
 
 ## Evidence discipline
 Every strategic recommendation should include:
@@ -388,9 +438,27 @@ Adopted pattern:
 - recent approved history is injected into strategic-fit evaluation;
 - evaluator discrimination is explicitly tested on strong, generic, off-niche and poor-quality examples.
 
+### OpenMagpie — Apache-2.0
+Adopted pattern:
+- reusable curated feeds;
+- semantic watches in natural language;
+- continuous polling;
+- relevance scoring;
+- instant alerts vs digest delivery;
+- auditable judgement and delivery history.
+
+### Obsei — Apache-2.0
+Adopted pattern:
+- source adapters;
+- stable theme clustering;
+- near-duplicate detection;
+- sentiment/intent/language enrichment;
+- confidence-aware routing;
+- trend views and privacy controls.
+
 ### Social Agent AI / performance-optimizing open-source agents
 Adopted pattern:
 - weekly analytics feed directly into strategy adjustment;
 - performance is used to change what gets produced next rather than only generating a report.
 
-Our implementation is stricter: the Executive Growth Producer owns the closure of the complete hypothesis -> production -> publish -> measurement -> decision cycle, while the Head of Virality owns a distinct opening/distribution hypothesis that is measured and learned from separately.
+Our implementation is stricter: the Executive Growth Producer owns the closure of the complete hypothesis -> production -> publish -> measurement -> decision cycle; the Head of Virality owns a distinct opening/distribution hypothesis; and the Trend & Cultural Intelligence Agent owns signal timing and cultural opportunity classification.
