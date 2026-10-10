@@ -1,0 +1,51 @@
+[
+  {
+    "repo": "tenfoldmarc/content-dashboard",
+    "url": "https://github.com/tenfoldmarc/content-dashboard/blob/main/README.md",
+    "readme_blob_sha": "d7635a0252f26961654f350aa4f5ad5e3fafbe58",
+    "review_date": "2026-10-10",
+    "scope": "README review; software not installed or runtime-tested"
+  },
+  {
+    "repo": "builderz-labs/marketing-dashboard",
+    "url": "https://github.com/builderz-labs/marketing-dashboard/blob/main/README.md",
+    "readme_blob_sha": "5eb29f7afd1f7190fbd92b7a57b8aba53d2237ba",
+    "review_date": "2026-10-10",
+    "scope": "README review; software not installed or runtime-tested"
+  },
+  {
+    "repo": "gitroomhq/postiz-app",
+    "url": "https://github.com/gitroomhq/postiz-app/blob/main/README.md",
+    "readme_blob_sha": "1b21e0a0d886e6a5e536837046e35eb86cd3ad31",
+    "review_date": "2026-10-10",
+    "scope": "README review; software not installed or runtime-tested"
+  },
+  {
+    "repo": "growthbook/growthbook",
+    "url": "https://github.com/growthbook/growthbook/blob/main/README.md",
+    "readme_blob_sha": "84c64a4864784a6f0f172006db4733b740ed0912",
+    "review_date": "2026-10-10",
+    "scope": "README review; software not installed or runtime-tested"
+  },
+  {
+    "repo": "airbytehq/airbyte",
+    "url": "https://github.com/airbytehq/airbyte/blob/master/README.md",
+    "readme_blob_sha": "b63250c4ba1bc19b789226bdcc1d46cbb508e177",
+    "review_date": "2026-10-10",
+    "scope": "README review; software not installed or runtime-tested"
+  },
+  {
+    "repo": "PostHog/posthog",
+    "url": "https://github.com/PostHog/posthog/blob/master/README.md",
+    "readme_blob_sha": "bd1feadbfe3824e089c8651589f147c0d38aedea",
+    "review_date": "2026-10-10",
+    "scope": "README review; software not installed or runtime-tested"
+  },
+  {
+    "repo": "ayrshare/social-media-api",
+    "url": "https://github.com/ayrshare/social-media-api/blob/master/README.md",
+    "readme_blob_sha": "2509c7e48e151946c215ec68ac56fcb141ce586b",
+    "review_date": "2026-10-10",
+    "scope": "README review; software not installed or runtime-tested"
+  }
+]

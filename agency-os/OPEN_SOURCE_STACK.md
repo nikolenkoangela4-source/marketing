@@ -145,3 +145,7 @@ External/adapted services:
 - Client data is isolated per workspace.
 - Tokens and secrets never live in Git.
 - Growth decisions are based on normalized performance, not raw vanity metrics alone.
+
+## Повторная проверка — 10 октября 2026
+
+[Обзор v2](v2/research/OPEN_SOURCE_REVIEW.md) и [манифест источников](v2/research/SOURCE_MANIFEST.json) фиксируют прочитанные README, blob SHA и конкретные подходы. Проверка не включает установку, аудит кода или доказательство результата роста. Добавлены паттерны событийной аналитики PostHog, разделения загрузки/преобразования Airbyte и аналитики поста/аккаунта/ссылки Ayrshare; эти сервисы не подключались.
